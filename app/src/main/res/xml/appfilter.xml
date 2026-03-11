@@ -1,19 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <item component="ComponentInfo{com.google.android.youtube/com.google.android.apps.youtube.app.WatchWhileActivity}" drawable="youtube" />
-    <item component="ComponentInfo{com.spotify.music/com.spotify.music.MainActivity}" drawable="spotify" />
-    <item component="ComponentInfo{com.google.android.apps.maps/com.google.android.maps.MapsActivity}" drawable="maps" />
-    <item component="ComponentInfo{com.android.dialer/com.android.dialer.main.impl.MainActivity}" drawable="phone" />
-    <item component="ComponentInfo{com.google.android.apps.nbu.files/com.google.android.apps.nbu.files.home.HomeActivity}" drawable="filemanager" />
-    <item component="ComponentInfo{com.android.settings/com.android.settings.Settings}" drawable="settings" />
-    <item component="ComponentInfo{com.android.vending/com.google.android.finsky.activities.MainActivity}" drawable="playstore" />
-    <item component="ComponentInfo{com.android.chrome/com.google.android.apps.chrome.Main}" drawable="chrome" />
-    <item component="ComponentInfo{com.google.android.apps.youtube.music/com.google.android.apps.youtube.music.activities.MusicActivity}" drawable="music" />
-    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ConversationListActivityGmail}" drawable="gmail" />
-    <item component="ComponentInfo{org.prowl.torque/org.prowl.torque.MainActivity}" drawable="torque" />
 
-    <!-- These are included for manual selection in the launcher if auto-mapping does not match your head unit apps -->
-    <item component="ComponentInfo{custom.radio/custom.radio.MainActivity}" drawable="radio" />
-    <item component="ComponentInfo{custom.car/custom.car.MainActivity}" drawable="car" />
-    <item component="ComponentInfo{custom.apps/custom.apps.MainActivity}" drawable="apps" />
+    <!-- Google Maps -->
+    <item component="ComponentInfo{com.google.android.apps.maps/com.google.android.maps.MapsActivity}" drawable="maps"/>
+
+    <!-- YouTube -->
+    <item component="ComponentInfo{com.google.android.youtube/com.google.android.apps.youtube.app.WatchWhileActivity}" drawable="youtube"/>
+
+    <!-- Torque -->
+    <item component="ComponentInfo{org.prowl.torque/org.prowl.torque.MainActivity}" drawable="torque"/>
+
+    <!-- Chrome -->
+    <item component="ComponentInfo{com.android.chrome/com.google.android.apps.chrome.Main}" drawable="chrome"/>
+
+    <!-- Play Store -->
+    <item component="ComponentInfo{com.android.vending/com.google.android.finsky.activities.MainActivity}" drawable="playstore"/>
+
+    <!-- Gmail -->
+    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ConversationListActivityGmail}" drawable="gmail"/>
+
+    <!-- Spotify -->
+    <item component="ComponentInfo{com.spotify.music/com.spotify.music.MainActivity}" drawable="spotify"/>
+
+    <!-- Phone -->
+    <item component="ComponentInfo{com.google.android.dialer/com.android.dialer.main.impl.MainActivity}" drawable="phone"/>
+
+    <!-- Files -->
+    <item component="ComponentInfo{com.google.android.apps.nbu.files/com.google.android.apps.nbu.files.home.HomeActivity}" drawable="files"/>
+
+    <!-- Settings -->
+    <item component="ComponentInfo{com.android.settings/com.android.settings.Settings}" drawable="settings"/>
+
+    <!-- Google Drive -->
+    <item component="ComponentInfo{com.google.android.apps.docs/com.google.android.apps.docs.app.NewMainProxyActivity}" drawable="googledrive"/>
+
+    <!-- Google Music -->
+    <item component="ComponentInfo{com.google.android.music/com.android.music.activitymanagement.TopLevelActivity}" drawable="music"/>
+
 </resources>
