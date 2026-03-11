@@ -1,1 +1,22 @@
 
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item drawable="apps" />
+    <item drawable="bluetooth" />
+    <item drawable="car" />
+    <item drawable="chrome" />
+    <item drawable="drive" />
+    <item drawable="eradio" />
+    <item drawable="files" />
+    <item drawable="gmail" />
+    <item drawable="maps" />
+    <item drawable="music" />
+    <item drawable="phone" />
+    <item drawable="playstore" />
+    <item drawable="settings" />
+    <item drawable="spotify" />
+    <item drawable="torque" />
+    <item drawable="weather" />
+    <item drawable="wifi" />
+    <item drawable="youtube" />
+</resources>
