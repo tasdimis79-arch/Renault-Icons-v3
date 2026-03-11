@@ -1,4 +1,4 @@
-package com.renault.tbox.iconpack
+package com.renault.tbox.iconpack.goldv2
 
 import android.os.Bundle
 import android.widget.TextView
