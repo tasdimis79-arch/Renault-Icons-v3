@@ -1,40 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- Google Maps -->
     <item component="ComponentInfo{com.google.android.apps.maps/com.google.android.maps.MapsActivity}" drawable="maps"/>
-
-    <!-- YouTube -->
     <item component="ComponentInfo{com.google.android.youtube/com.google.android.apps.youtube.app.WatchWhileActivity}" drawable="youtube"/>
-
-    <!-- Torque -->
     <item component="ComponentInfo{org.prowl.torque/org.prowl.torque.MainActivity}" drawable="torque"/>
-
-    <!-- Chrome -->
     <item component="ComponentInfo{com.android.chrome/com.google.android.apps.chrome.Main}" drawable="chrome"/>
-
-    <!-- Play Store -->
     <item component="ComponentInfo{com.android.vending/com.google.android.finsky.activities.MainActivity}" drawable="playstore"/>
-
-    <!-- Gmail -->
     <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ConversationListActivityGmail}" drawable="gmail"/>
-
-    <!-- Spotify -->
     <item component="ComponentInfo{com.spotify.music/com.spotify.music.MainActivity}" drawable="spotify"/>
-
-    <!-- Phone -->
     <item component="ComponentInfo{com.google.android.dialer/com.android.dialer.main.impl.MainActivity}" drawable="phone"/>
-
-    <!-- Files -->
     <item component="ComponentInfo{com.google.android.apps.nbu.files/com.google.android.apps.nbu.files.home.HomeActivity}" drawable="files"/>
-
-    <!-- Settings -->
     <item component="ComponentInfo{com.android.settings/com.android.settings.Settings}" drawable="settings"/>
-
-    <!-- Google Drive -->
-    <item component="ComponentInfo{com.google.android.apps.docs/com.google.android.apps.docs.app.NewMainProxyActivity}" drawable="googledrive"/>
-
-    <!-- Google Music -->
+    <item component="ComponentInfo{com.google.android.apps.docs/com.google.android.apps.docs.app.NewMainProxyActivity}" drawable="drive"/>
     <item component="ComponentInfo{com.google.android.music/com.android.music.activitymanagement.TopLevelActivity}" drawable="music"/>
+
+    <!-- optional / custom -->
+    <item component="ComponentInfo{custom.apps/custom.apps.MainActivity}" drawable="apps"/>
+    <item component="ComponentInfo{custom.bluetooth/custom.bluetooth.MainActivity}" drawable="bluetooth"/>
+    <item component="ComponentInfo{custom.car/custom.car.MainActivity}" drawable="car"/>
+    <item component="ComponentInfo{custom.eradio/custom.eradio.MainActivity}" drawable="eradio"/>
+    <item component="ComponentInfo{custom.weather/custom.weather.MainActivity}" drawable="weather"/>
+    <item component="ComponentInfo{custom.wifi/custom.wifi.MainActivity}" drawable="wifi"/>
 
 </resources>
